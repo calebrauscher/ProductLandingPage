@@ -1,0 +1,93 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400, 700';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+div {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  margin-top: 10px;
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    #header ul {
+        float: none;
+        width: 100%;
+    }
+}
+
+#header-img {
+  max-height: 50px;
+}
+
+section {
+  margin: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin: 50px;
+  font-family: Roboto;
+}
+
+h1 {
+  padding-top: 100px;
+  text-align: center;
+}
+
+#running-shoes {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#inventory img {
+  margin: 100px 100px 100px 100px;
+}
